@@ -34,7 +34,7 @@ long long int nhappytrees(vector<pair<int, int>> &well, vector<pair<int, int>> &
 
 int main() {
     int testcase, n, q;
-    freopen("input.txt", "r", stdin);
+    freopen("watering_well_chapter_2_input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     cin >> testcase;
 
