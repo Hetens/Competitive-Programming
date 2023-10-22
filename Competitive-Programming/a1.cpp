@@ -31,6 +31,8 @@ string n_cuts(vector<int> &A, vector<int> &B, int K, int N){
     return num_out_of_order == 1 ? "YES" : "NO";
 }
 int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     int n;
     freopen("consecutive_cuts_chapter_1_input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);

@@ -1,0 +1,16 @@
+if(rotated[k][j]!= a[k][j])
+              {
+                int temp  = rotated[k][j] -a[k][j];
+                cout<<temp<<endl;
+                if(temp <0)
+                {
+                    temp = 'z'-a[k][j];
+                    a[k][j] = 'z';
+                    rotated[k][j] = 'z';
+                }
+                else{
+                    a[k][j]= rotated[k][j];
+                }
+            
+                count+=temp;
+              }  
